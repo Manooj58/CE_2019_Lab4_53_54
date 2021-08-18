@@ -209,7 +209,7 @@ bool graph::isNeighbour(vertex* v1, vertex* v2)
         cout << v1->info << " and " << v2->info << " are neighbours." <<endl;
     }
     else {
-        cout << "not neighbours" <<endl;
+        cout <<v1->info << " and " << v2->info<< "not neighbours" <<endl;
     }
     return neighbour;
 }
